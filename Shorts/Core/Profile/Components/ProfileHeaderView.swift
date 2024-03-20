@@ -27,6 +27,19 @@ struct ProfileHeaderView: View {
                 UserStatsView(title: "60", subtitle: "Followers")
                 UserStatsView(title: "90", subtitle: "Likes")
             }
+            
+            // action button
+            Button {
+                
+            } label: {
+                 Text("Edit Profile")
+                    .font(.subheadline)
+                    .fontWeight(.semibold)
+                    .frame(width: 360,height: 32)
+                    .foregroundStyle(.black)
+                    .background(Color(.systemGray6))
+                    .clipShape(RoundedRectangle(cornerRadius: 6))
+            }
         }
     }
 }
