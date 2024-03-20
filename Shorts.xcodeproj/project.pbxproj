@@ -11,6 +11,9 @@
 		DCC689E32BAB3DC700898428 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689E22BAB3DC700898428 /* UserCell.swift */; };
 		DCC689E62BAB400E00898428 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689E52BAB400E00898428 /* NotificationView.swift */; };
 		DCC689E82BAB401800898428 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689E72BAB401800898428 /* NotificationCell.swift */; };
+		DCC689EB2BAB436500898428 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689EA2BAB436500898428 /* CurrentUserProfileView.swift */; };
+		DCC689ED2BAB446700898428 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689EC2BAB446700898428 /* ProfileHeaderView.swift */; };
+		DCC689EF2BAB446F00898428 /* ProfileGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689EE2BAB446F00898428 /* ProfileGridView.swift */; };
 		DCC92F772BAB1DAC00DC6FA0 /* ShortsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC92F762BAB1DAC00DC6FA0 /* ShortsApp.swift */; };
 		DCC92F792BAB1DAC00DC6FA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC92F782BAB1DAC00DC6FA0 /* ContentView.swift */; };
 		DCC92F7B2BAB1DAD00DC6FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC92F7A2BAB1DAD00DC6FA0 /* Assets.xcassets */; };
@@ -45,6 +48,9 @@
 		DCC689E22BAB3DC700898428 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		DCC689E52BAB400E00898428 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		DCC689E72BAB401800898428 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		DCC689EA2BAB436500898428 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		DCC689EC2BAB446700898428 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		DCC689EE2BAB446F00898428 /* ProfileGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileGridView.swift; sourceTree = "<group>"; };
 		DCC92F732BAB1DAC00DC6FA0 /* Shorts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shorts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC92F762BAB1DAC00DC6FA0 /* ShortsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsApp.swift; sourceTree = "<group>"; };
 		DCC92F782BAB1DAC00DC6FA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +107,16 @@
 				DCC689E72BAB401800898428 /* NotificationCell.swift */,
 			);
 			path = Notifications;
+			sourceTree = "<group>";
+		};
+		DCC689E92BAB435700898428 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				DCC689EA2BAB436500898428 /* CurrentUserProfileView.swift */,
+				DCC689EC2BAB446700898428 /* ProfileHeaderView.swift */,
+				DCC689EE2BAB446F00898428 /* ProfileGridView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		DCC92F6A2BAB1DAC00DC6FA0 = {
@@ -174,6 +190,7 @@
 		DCC92FA32BAB1E6400DC6FA0 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				DCC689E92BAB435700898428 /* Profile */,
 				DCC689E42BAB3FFF00898428 /* Notifications */,
 				DCC689DF2BAB3D9A00898428 /* Search */,
 				DCC92FB12BAB251500DC6FA0 /* Feed */,
@@ -392,11 +409,14 @@
 			files = (
 				DCC92FB32BAB251F00DC6FA0 /* FeedView.swift in Sources */,
 				DCC689E82BAB401800898428 /* NotificationCell.swift in Sources */,
+				DCC689EF2BAB446F00898428 /* ProfileGridView.swift in Sources */,
+				DCC689ED2BAB446700898428 /* ProfileHeaderView.swift in Sources */,
 				DCC92FB52BAB273400DC6FA0 /* FeedCell.swift in Sources */,
 				DCC92F792BAB1DAC00DC6FA0 /* ContentView.swift in Sources */,
 				DCC689E62BAB400E00898428 /* NotificationView.swift in Sources */,
 				DCC92F772BAB1DAC00DC6FA0 /* ShortsApp.swift in Sources */,
 				DCC92FB02BAB1F1F00DC6FA0 /* MainTabView.swift in Sources */,
+				DCC689EB2BAB436500898428 /* CurrentUserProfileView.swift in Sources */,
 				DCC689E12BAB3DAA00898428 /* ExplorerView.swift in Sources */,
 				DCC689E32BAB3DC700898428 /* UserCell.swift in Sources */,
 			);
