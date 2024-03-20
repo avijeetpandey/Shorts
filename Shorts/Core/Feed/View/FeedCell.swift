@@ -12,7 +12,7 @@ struct FeedCell: View {
     let post: Post
     var body: some View {
         ZStack {
-            VideoPlayer(player: AVPlayer(url: URL(string: post.videoUrl)!))
+            CustomVideoPlayer(player: AVPlayer(url: URL(string: post.videoUrl)!))
                 .containerRelativeFrame([.horizontal, .vertical])
             
             VStack {

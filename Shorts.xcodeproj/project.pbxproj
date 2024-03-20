@@ -17,6 +17,7 @@
 		DCC689F12BAB460600898428 /* UserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689F02BAB460600898428 /* UserStatsView.swift */; };
 		DCC689F42BAB4B2A00898428 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689F32BAB4B2A00898428 /* Post.swift */; };
 		DCC689F92BAB4B9200898428 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689F82BAB4B9200898428 /* FeedViewModel.swift */; };
+		DCC689FC2BAB557C00898428 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689FB2BAB557C00898428 /* CustomVideoPlayer.swift */; };
 		DCC92F772BAB1DAC00DC6FA0 /* ShortsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC92F762BAB1DAC00DC6FA0 /* ShortsApp.swift */; };
 		DCC92F792BAB1DAC00DC6FA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC92F782BAB1DAC00DC6FA0 /* ContentView.swift */; };
 		DCC92F7B2BAB1DAD00DC6FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC92F7A2BAB1DAD00DC6FA0 /* Assets.xcassets */; };
@@ -58,6 +59,7 @@
 		DCC689F32BAB4B2A00898428 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		DCC689F82BAB4B9200898428 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		DCC689FA2BAB4FB200898428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DCC689FB2BAB557C00898428 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
 		DCC92F732BAB1DAC00DC6FA0 /* Shorts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shorts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC92F762BAB1DAC00DC6FA0 /* ShortsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsApp.swift; sourceTree = "<group>"; };
 		DCC92F782BAB1DAC00DC6FA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -284,6 +286,7 @@
 		DCC92FA92BAB1EB900DC6FA0 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				DCC689FB2BAB557C00898428 /* CustomVideoPlayer.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -451,6 +454,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCC92FB32BAB251F00DC6FA0 /* FeedView.swift in Sources */,
+				DCC689FC2BAB557C00898428 /* CustomVideoPlayer.swift in Sources */,
 				DCC689E82BAB401800898428 /* NotificationCell.swift in Sources */,
 				DCC689EF2BAB446F00898428 /* PostGridView.swift in Sources */,
 				DCC689ED2BAB446700898428 /* ProfileHeaderView.swift in Sources */,
