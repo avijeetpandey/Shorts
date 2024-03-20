@@ -15,6 +15,8 @@
 		DCC92F922BAB1DAD00DC6FA0 /* ShortsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC92F912BAB1DAD00DC6FA0 /* ShortsUITests.swift */; };
 		DCC92F942BAB1DAD00DC6FA0 /* ShortsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC92F932BAB1DAD00DC6FA0 /* ShortsUITestsLaunchTests.swift */; };
 		DCC92FB02BAB1F1F00DC6FA0 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC92FAF2BAB1F1F00DC6FA0 /* MainTabView.swift */; };
+		DCC92FB32BAB251F00DC6FA0 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC92FB22BAB251F00DC6FA0 /* FeedView.swift */; };
+		DCC92FB52BAB273400DC6FA0 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC92FB42BAB273400DC6FA0 /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		DCC92F912BAB1DAD00DC6FA0 /* ShortsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsUITests.swift; sourceTree = "<group>"; };
 		DCC92F932BAB1DAD00DC6FA0 /* ShortsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DCC92FAF2BAB1F1F00DC6FA0 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		DCC92FB22BAB251F00DC6FA0 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		DCC92FB42BAB273400DC6FA0 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,7 @@
 		DCC92FA32BAB1E6400DC6FA0 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				DCC92FB12BAB251500DC6FA0 /* Feed */,
 				DCC92FAC2BAB1EFB00DC6FA0 /* TabBar */,
 				DCC92FAB2BAB1ECD00DC6FA0 /* Comments */,
 				DCC92FAA2BAB1EC300DC6FA0 /* Authentication */,
@@ -216,6 +221,15 @@
 				DCC92FAF2BAB1F1F00DC6FA0 /* MainTabView.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		DCC92FB12BAB251500DC6FA0 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				DCC92FB22BAB251F00DC6FA0 /* FeedView.swift */,
+				DCC92FB42BAB273400DC6FA0 /* FeedCell.swift */,
+			);
+			path = Feed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,6 +362,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC92FB32BAB251F00DC6FA0 /* FeedView.swift in Sources */,
+				DCC92FB52BAB273400DC6FA0 /* FeedCell.swift in Sources */,
 				DCC92F792BAB1DAC00DC6FA0 /* ContentView.swift in Sources */,
 				DCC92F772BAB1DAC00DC6FA0 /* ShortsApp.swift in Sources */,
 				DCC92FB02BAB1F1F00DC6FA0 /* MainTabView.swift in Sources */,
