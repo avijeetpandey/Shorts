@@ -6,25 +6,21 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct FeedCell: View {
-    let post: Int
+    let post: Post
     var body: some View {
         ZStack {
-            Rectangle()
-                .fill(.pink)
+            VideoPlayer(player: AVPlayer(url: URL(string: post.videoUrl)!))
                 .containerRelativeFrame([.horizontal, .vertical])
-                .overlay {
-                    Text("Post \(post)")
-                        .foregroundStyle(.white)
-                }
             
             VStack {
                 Spacer()
                 
                 HStack(alignment: .bottom) {
                     VStack(alignment: .leading) {
-                        Text("Avijeet Pandey")
+                        Text("@test.user")
                             .fontWeight(.semibold)
                         
                         Text("Rocket ship preparing to take off")
@@ -114,5 +110,5 @@ struct FeedCell: View {
 }
 
 #Preview {
-    FeedCell(post: 2)
+    FeedCell(post: .init(id: NSUUID().uuidString, videoUrl: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"))
 }

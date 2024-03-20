@@ -15,6 +15,8 @@
 		DCC689ED2BAB446700898428 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689EC2BAB446700898428 /* ProfileHeaderView.swift */; };
 		DCC689EF2BAB446F00898428 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689EE2BAB446F00898428 /* PostGridView.swift */; };
 		DCC689F12BAB460600898428 /* UserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689F02BAB460600898428 /* UserStatsView.swift */; };
+		DCC689F42BAB4B2A00898428 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689F32BAB4B2A00898428 /* Post.swift */; };
+		DCC689F92BAB4B9200898428 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689F82BAB4B9200898428 /* FeedViewModel.swift */; };
 		DCC92F772BAB1DAC00DC6FA0 /* ShortsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC92F762BAB1DAC00DC6FA0 /* ShortsApp.swift */; };
 		DCC92F792BAB1DAC00DC6FA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC92F782BAB1DAC00DC6FA0 /* ContentView.swift */; };
 		DCC92F7B2BAB1DAD00DC6FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC92F7A2BAB1DAD00DC6FA0 /* Assets.xcassets */; };
@@ -53,6 +55,9 @@
 		DCC689EC2BAB446700898428 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		DCC689EE2BAB446F00898428 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		DCC689F02BAB460600898428 /* UserStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatsView.swift; sourceTree = "<group>"; };
+		DCC689F32BAB4B2A00898428 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		DCC689F82BAB4B9200898428 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		DCC689FA2BAB4FB200898428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DCC92F732BAB1DAC00DC6FA0 /* Shorts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shorts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC92F762BAB1DAC00DC6FA0 /* ShortsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsApp.swift; sourceTree = "<group>"; };
 		DCC92F782BAB1DAC00DC6FA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -130,6 +135,30 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		DCC689F52BAB4B5500898428 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DCC689F62BAB4B6000898428 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DCC92FB22BAB251F00DC6FA0 /* FeedView.swift */,
+				DCC92FB42BAB273400DC6FA0 /* FeedCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DCC689F72BAB4B6600898428 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DCC689F82BAB4B9200898428 /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		DCC92F6A2BAB1DAC00DC6FA0 = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +182,7 @@
 		DCC92F752BAB1DAC00DC6FA0 /* Shorts */ = {
 			isa = PBXGroup;
 			children = (
+				DCC689FA2BAB4FB200898428 /* Info.plist */,
 				DCC92FA02BAB1E5B00DC6FA0 /* App */,
 				DCC92FA32BAB1E6400DC6FA0 /* Core */,
 				DCC92FA42BAB1E6500DC6FA0 /* Extensions */,
@@ -205,9 +235,9 @@
 				DCC689E42BAB3FFF00898428 /* Notifications */,
 				DCC689DF2BAB3D9A00898428 /* Search */,
 				DCC92FB12BAB251500DC6FA0 /* Feed */,
-				DCC92FAC2BAB1EFB00DC6FA0 /* TabBar */,
 				DCC92FAB2BAB1ECD00DC6FA0 /* Comments */,
 				DCC92FAA2BAB1EC300DC6FA0 /* Authentication */,
+				DCC92FAC2BAB1EFB00DC6FA0 /* TabBar */,
 				DCC92FA92BAB1EB900DC6FA0 /* Components */,
 				DCC92FA82BAB1EAE00DC6FA0 /* Root */,
 			);
@@ -224,6 +254,7 @@
 		DCC92FA52BAB1E6700DC6FA0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DCC689F32BAB4B2A00898428 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -282,8 +313,9 @@
 		DCC92FB12BAB251500DC6FA0 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
-				DCC92FB22BAB251F00DC6FA0 /* FeedView.swift */,
-				DCC92FB42BAB273400DC6FA0 /* FeedCell.swift */,
+				DCC689F72BAB4B6600898428 /* ViewModel */,
+				DCC689F62BAB4B6000898428 /* View */,
+				DCC689F52BAB4B5500898428 /* Service */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -423,6 +455,8 @@
 				DCC689EF2BAB446F00898428 /* PostGridView.swift in Sources */,
 				DCC689ED2BAB446700898428 /* ProfileHeaderView.swift in Sources */,
 				DCC689F12BAB460600898428 /* UserStatsView.swift in Sources */,
+				DCC689F92BAB4B9200898428 /* FeedViewModel.swift in Sources */,
+				DCC689F42BAB4B2A00898428 /* Post.swift in Sources */,
 				DCC92FB52BAB273400DC6FA0 /* FeedCell.swift in Sources */,
 				DCC92F792BAB1DAC00DC6FA0 /* ContentView.swift in Sources */,
 				DCC689E62BAB400E00898428 /* NotificationView.swift in Sources */,
@@ -597,6 +631,7 @@
 				DEVELOPMENT_TEAM = 5H7QL83244;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shorts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -626,6 +661,7 @@
 				DEVELOPMENT_TEAM = 5H7QL83244;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shorts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
