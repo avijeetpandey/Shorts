@@ -22,7 +22,7 @@ struct MainTabView: View {
             }.onAppear { selectedTab = 0}
                 .tag(0)
             
-            Text("Explorer").tabItem {
+            ExplorerView().tabItem {
                 VStack {
                     Image(systemName: selectedTab == 1 ? "person.2.fill" : "person.2")
                         .environment(\.symbolVariants, selectedTab == 1 ? .fill : .none)
