@@ -37,7 +37,7 @@ struct MainTabView: View {
                 }
             }
             
-            Text("Notifications").tabItem {
+            NotificationView().tabItem {
                 VStack {
                     Image(systemName: selectedTab == 3 ? "bell.fill" : "bell")
                         .environment(\.symbolVariants, selectedTab == 3 ? .fill : .none)
