@@ -11,8 +11,8 @@ struct NotificationView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                LazyVStack(spacing: 12) {
-                    ForEach(0 ..< 10) { notification in
+                LazyVStack(spacing: 24) {
+                    ForEach(0 ..< 20) { notification in
                         NotificationCell()
                     }
                 }
