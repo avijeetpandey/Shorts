@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DCC689E12BAB3DAA00898428 /* ExplorerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689E02BAB3DAA00898428 /* ExplorerView.swift */; };
+		DCC689E32BAB3DC700898428 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689E22BAB3DC700898428 /* UserCell.swift */; };
 		DCC92F772BAB1DAC00DC6FA0 /* ShortsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC92F762BAB1DAC00DC6FA0 /* ShortsApp.swift */; };
 		DCC92F792BAB1DAC00DC6FA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC92F782BAB1DAC00DC6FA0 /* ContentView.swift */; };
 		DCC92F7B2BAB1DAD00DC6FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC92F7A2BAB1DAD00DC6FA0 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DCC689E02BAB3DAA00898428 /* ExplorerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerView.swift; sourceTree = "<group>"; };
+		DCC689E22BAB3DC700898428 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		DCC92F732BAB1DAC00DC6FA0 /* Shorts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shorts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC92F762BAB1DAC00DC6FA0 /* ShortsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsApp.swift; sourceTree = "<group>"; };
 		DCC92F782BAB1DAC00DC6FA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DCC689DF2BAB3D9A00898428 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				DCC689E02BAB3DAA00898428 /* ExplorerView.swift */,
+				DCC689E22BAB3DC700898428 /* UserCell.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 		DCC92F6A2BAB1DAC00DC6FA0 = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +161,7 @@
 		DCC92FA32BAB1E6400DC6FA0 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				DCC689DF2BAB3D9A00898428 /* Search */,
 				DCC92FB12BAB251500DC6FA0 /* Feed */,
 				DCC92FAC2BAB1EFB00DC6FA0 /* TabBar */,
 				DCC92FAB2BAB1ECD00DC6FA0 /* Comments */,
@@ -367,6 +381,8 @@
 				DCC92F792BAB1DAC00DC6FA0 /* ContentView.swift in Sources */,
 				DCC92F772BAB1DAC00DC6FA0 /* ShortsApp.swift in Sources */,
 				DCC92FB02BAB1F1F00DC6FA0 /* MainTabView.swift in Sources */,
+				DCC689E12BAB3DAA00898428 /* ExplorerView.swift in Sources */,
+				DCC689E32BAB3DC700898428 /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
