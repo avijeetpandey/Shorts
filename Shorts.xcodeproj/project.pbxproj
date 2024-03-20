@@ -13,7 +13,7 @@
 		DCC689E82BAB401800898428 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689E72BAB401800898428 /* NotificationCell.swift */; };
 		DCC689EB2BAB436500898428 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689EA2BAB436500898428 /* CurrentUserProfileView.swift */; };
 		DCC689ED2BAB446700898428 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689EC2BAB446700898428 /* ProfileHeaderView.swift */; };
-		DCC689EF2BAB446F00898428 /* ProfileGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689EE2BAB446F00898428 /* ProfileGridView.swift */; };
+		DCC689EF2BAB446F00898428 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689EE2BAB446F00898428 /* PostGridView.swift */; };
 		DCC689F12BAB460600898428 /* UserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC689F02BAB460600898428 /* UserStatsView.swift */; };
 		DCC92F772BAB1DAC00DC6FA0 /* ShortsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC92F762BAB1DAC00DC6FA0 /* ShortsApp.swift */; };
 		DCC92F792BAB1DAC00DC6FA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC92F782BAB1DAC00DC6FA0 /* ContentView.swift */; };
@@ -51,7 +51,7 @@
 		DCC689E72BAB401800898428 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		DCC689EA2BAB436500898428 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
 		DCC689EC2BAB446700898428 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
-		DCC689EE2BAB446F00898428 /* ProfileGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileGridView.swift; sourceTree = "<group>"; };
+		DCC689EE2BAB446F00898428 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		DCC689F02BAB460600898428 /* UserStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatsView.swift; sourceTree = "<group>"; };
 		DCC92F732BAB1DAC00DC6FA0 /* Shorts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shorts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC92F762BAB1DAC00DC6FA0 /* ShortsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsApp.swift; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 			children = (
 				DCC689F02BAB460600898428 /* UserStatsView.swift */,
 				DCC689EC2BAB446700898428 /* ProfileHeaderView.swift */,
-				DCC689EE2BAB446F00898428 /* ProfileGridView.swift */,
+				DCC689EE2BAB446F00898428 /* PostGridView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -420,7 +420,7 @@
 			files = (
 				DCC92FB32BAB251F00DC6FA0 /* FeedView.swift in Sources */,
 				DCC689E82BAB401800898428 /* NotificationCell.swift in Sources */,
-				DCC689EF2BAB446F00898428 /* ProfileGridView.swift in Sources */,
+				DCC689EF2BAB446F00898428 /* PostGridView.swift in Sources */,
 				DCC689ED2BAB446700898428 /* ProfileHeaderView.swift in Sources */,
 				DCC689F12BAB460600898428 /* UserStatsView.swift in Sources */,
 				DCC92FB52BAB273400DC6FA0 /* FeedCell.swift in Sources */,
