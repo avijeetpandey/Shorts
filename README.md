@@ -1,5 +1,5 @@
 ## Shorts :tada: :rocket:
-A tik tok like application made using Swift and SwiftUI, the application contains the following
+A video scrolling application made using Swift and SwiftUI, the application contains the following
 
 - Made with `Swift` and `SwiftUI`
 - Custom Video player in order to play videos full screen
